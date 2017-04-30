@@ -13,7 +13,7 @@ public class Main {
                 new AnnotationConfigApplicationContext(SpringConfiguration.class);
 
         HelloWorld bean = annotationConfigApplicationContext.getBean(HelloWorld.class);
-        bean.setMessage("Hello World 1");
+        bean.setMessage("Hello World");
         bean.getMessage();
 
         HelloWorld bean2 = annotationConfigApplicationContext.getBean(HelloWorld.class);
